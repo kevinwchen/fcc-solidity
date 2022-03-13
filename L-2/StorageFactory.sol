@@ -4,7 +4,9 @@ pragma solidity ^0.6.0;
 // Equivalent to copy and pasting the contract code here, can choose which contract to deploy later if multiple exist
 import  "./SimpleStorage.sol";
 
-contract StorageFactory {
+// contract StorageFactory {
+// Inherit all functions from the SimpleStorage contract into StorageFactory
+contract StorageFactory is SimpleStorage {
     // array to track address of deployed contracts
     SimpleStorage[] public simpleStorageArray; // initialise simple storage array
 
@@ -19,6 +21,17 @@ contract StorageFactory {
         // call functions from ./SimpleStorage.sol
         // Address
         // ABI Application Binary Interface
-        SimpleStorage(address(simpleStorageArray[_simpleStorageIndex]));
+        // stores _simpleStorageNumber as favouriteNumber at location _simpleStorageIndex
+        SimpleStorage simpleStorage = SimpleStorage(address(simpleStorageArray[_simpleStorageIndex]));
+        simpleStorage.store(_simpleStorageNumber);
+        // can shorten to:
+        // SimpleStorage(address(simpleStorageArray[_simpleStorageIndex])).store(_simpleStorageNumber);
+    }
+
+    function sfGet(uint256 _simpleStorageIndex) public view returns (uint256) {
+        SimpleStorage simpleStorage = SimpleStorage(address(simpleStorageArray[_simpleStorageIndex]));
+        return simpleStorage.retrieve();
+        // can shorten to:
+        // return SimpleStorage(address(simpleStorageArray[_simpleStorageIndex])).retrieve();
     }
 }
