@@ -1,0 +1,47 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StorageFactory.sol": "StorageFactor"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0xa3b83673ab780cb22bc02e883a7bb1c363e54f199bf55b996bf03d56b4e10415",
+			"urls": [
+				"bzz-raw://a5729f69b295fcfbd8dffdb8d1d3848a416d34a9e254916cb2f584fdcfd53392",
+				"dweb:/ipfs/QmdeEq7BDziFYZaJJXcvsWsVc3tSqEftMJgHrN9R5trgpU"
+			]
+		},
+		"contracts/StorageFactory.sol": {
+			"keccak256": "0x7dee622dae6441b7a046654f11f084c5156abc044cf05861f500efafad5cf172",
+			"urls": [
+				"bzz-raw://4903bf599d05ac76811071bbeff0259aba734a893323f5e446fb1555f52c2e7d",
+				"dweb:/ipfs/QmWUpB6gYgC3537CJpCGeDJdm7KPvyKJWqvEVrCh7Taw2F"
+			]
+		}
+	},
+	"version": 1
+}

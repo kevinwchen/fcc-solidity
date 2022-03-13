@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createSimpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "simpleStorageArray",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"L-2/StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"L-2/SimpleStorage.sol": {
+			"keccak256": "0xfc0e3fec532733510f83f9492c3e3f36427e15b2d5189d162a1a41eeed2c9bdb",
+			"urls": [
+				"bzz-raw://af60eae6db3b199e991fcbc4c7e5c23e23b3f5128e78c5f3842e6b43a9cb3fbe",
+				"dweb:/ipfs/QmR62CxUPpVvv5Kryt4N36MAtjLaLjygowdrbmX7DWqeCm"
+			]
+		},
+		"L-2/StorageFactory.sol": {
+			"keccak256": "0xb1f5d85a59f24eb3dd89b328289ab827cd69bf0c9a3f1df2f82e9ec26f3623d7",
+			"urls": [
+				"bzz-raw://5bc89f491dd41115a1e709ba34a11cc9ed3e261a71827cb893e22f2cc4c165e6",
+				"dweb:/ipfs/QmYSfTyoeMgLx1hxtoqPf1o14aPWcS9ZyUcDnQHmDPaxjN"
+			]
+		}
+	},
+	"version": 1
+}

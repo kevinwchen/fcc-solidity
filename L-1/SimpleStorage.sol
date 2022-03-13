@@ -32,7 +32,7 @@ contract SimpleStorage{
         string name;
     }
 
-    People public person = People({favouriteNumber: 2, name: "Kevin"});
+    People public person = People({favouriteNumber: 14, name: "Kevin"});
 
     // arrays
     People[] public people; // this is a dynamic array that can change in size if you add something in
