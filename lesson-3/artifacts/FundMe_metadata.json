@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "addressToAmountFunded",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fund",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lesson-3/FundMe.sol": "FundMe"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lesson-3/FundMe.sol": {
+			"keccak256": "0x56960b9e52bef18d70ebf5b7cb0b7ddc63d5566def4e39fa245b144b2aee5c32",
+			"urls": [
+				"bzz-raw://ccb90aced68ee4c05347a794f2ff24fda154863eec0902f00839fbf77b152fc4",
+				"dweb:/ipfs/QmV5uwkasmjfJ5Mz3kAQwXHxnM531YU2n3yWhPCpPgfmjq"
+			]
+		}
+	},
+	"version": 1
+}
