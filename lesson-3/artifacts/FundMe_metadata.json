@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.6.6+commit.6c089d02"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
@@ -30,20 +30,69 @@
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "ethAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "getConversionRate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getVersion",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"lesson-3/FundMe.sol": "FundMe"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -56,10 +105,11 @@
 	},
 	"sources": {
 		"lesson-3/FundMe.sol": {
-			"keccak256": "0x56960b9e52bef18d70ebf5b7cb0b7ddc63d5566def4e39fa245b144b2aee5c32",
+			"keccak256": "0x8fde9ed10af6caf55f90843b848e5b7ec22937197769996990a75589ecc6cec3",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://ccb90aced68ee4c05347a794f2ff24fda154863eec0902f00839fbf77b152fc4",
-				"dweb:/ipfs/QmV5uwkasmjfJ5Mz3kAQwXHxnM531YU2n3yWhPCpPgfmjq"
+				"bzz-raw://4325a69835642b0df32a4377e7855fbb85102204e65406d5590003586cf1e4af",
+				"dweb:/ipfs/QmPEdq7v3JX1UxziKrMqEQrvRGvKGyAaTobawjTA2qSn9x"
 			]
 		}
 	},

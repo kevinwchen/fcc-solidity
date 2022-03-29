@@ -20,8 +20,8 @@ contract StorageFactory is SimpleStorage {
     function sfStore(uint256 _simpleStorageIndex, uint256 _simpleStorageNumber) public {
         // call functions from ./SimpleStorage.sol
         // Address
-        // ABI Application Binary Interface
-        // stores _simpleStorageNumber as favouriteNumber at location _simpleStorageIndex
+        // ABI Application Binary Interface: tells solidity and other programming languages how it can interact with another contract
+        // function stores _simpleStorageNumber as favouriteNumber at location _simpleStorageIndex
         SimpleStorage simpleStorage = SimpleStorage(address(simpleStorageArray[_simpleStorageIndex]));
         simpleStorage.store(_simpleStorageNumber);
         // can shorten to:
