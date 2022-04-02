@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.6.6+commit.6c089d02"
 	},
 	"language": "Solidity",
 	"output": {
@@ -118,21 +118,17 @@
 			}
 		],
 		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		},
 		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"lesson-3/FundMe.sol": "AggregatorV3Interface"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -144,12 +140,18 @@
 		"remappings": []
 	},
 	"sources": {
-		"lesson-3/FundMe.sol": {
-			"keccak256": "0x8fde9ed10af6caf55f90843b848e5b7ec22937197769996990a75589ecc6cec3",
-			"license": "MIT",
+		"@chainlink/contracts/src/v0.6/vendor/SafeMathChainlink.sol": {
+			"keccak256": "0x105f5e9491f3d0bbdd4f1c7627eb839d69b944bfd803028a01cc083597692c1f",
 			"urls": [
-				"bzz-raw://4325a69835642b0df32a4377e7855fbb85102204e65406d5590003586cf1e4af",
-				"dweb:/ipfs/QmPEdq7v3JX1UxziKrMqEQrvRGvKGyAaTobawjTA2qSn9x"
+				"bzz-raw://ec45a2748a024a947a921183d4102d5e206808588501d85ddc4f5668a009bc73",
+				"dweb:/ipfs/QmRNAMpq7LdWFnJ7wWKGbUuAcURaGSS42PMxtQ4vjrHmp9"
+			]
+		},
+		"lesson-3/FundMe.sol": {
+			"keccak256": "0x8e0e366a99e5a876c497887abcce1f9a57863f46c7b9107f845744a7d2cd22e0",
+			"urls": [
+				"bzz-raw://0d2752e357a540162db1a929192905f29018374fe6ede3cf2d32a818dacac0b3",
+				"dweb:/ipfs/QmSUnMGqaYthUntBoM1V1JgUTvaCVeNumCd54Bm7AxYFAP"
 			]
 		}
 	},
